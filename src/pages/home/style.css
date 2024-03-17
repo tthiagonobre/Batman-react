@@ -1,0 +1,275 @@
+#banner {
+   background-image: url('https://pbs.twimg.com/media/FBwJWeQXIAItfyH?format=jpg&name=large');
+   background-position: 50% 50%;
+   background-size: cover;
+   width: 100%;
+   height: 600px;
+}
+
+#trailer-container {
+   width: 100%;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   background-color: #000;
+}
+
+.content {
+   width: 60%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.trailer {
+   width: 50%;
+}
+
+#sinopse {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-left: 30px;
+}
+
+.description {
+   color: #fff;
+   font-size: 19px;
+   font-family: 'Kdam Thmor Pro', sans-serif;
+   width: 70%;
+}
+
+.button {
+   width: 200px;
+   height: 60px;
+   background-color: #d21617;
+   color: #fff;
+   padding: 8px 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: .8s; /* .8s == 8ms */
+   font-size: 18px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold; /* Deixar a letra mais grossa*/
+   border: none;
+   outline: none;
+   margin-top: 25px;
+}
+
+.button:hover {
+   background-color: #fff;
+   color: #000;
+}
+
+
+
+@media(max-width: 360px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-position: 40.4%;
+    }
+
+    #trailer-container {
+        width: 106%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 90%;
+    }
+
+    .button {
+        width: 95%;
+        margin-top: 30px;
+        margin-left: -8px;
+    }
+
+    
+}
+
+@media (min-width: 361px) and (max-width: 608px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-position: 40.4%;
+    }
+
+    #trailer-container {
+        width: 106%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 90%;
+    }
+
+    .button {
+        width: 95%;
+        margin-top: 30px;
+        margin-left: -6px;
+    }
+
+    
+}
+
+@media (min-width: 609px) and (max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-position: 39%;
+        background-position-y: -88px;
+        
+    }
+
+    #trailer-container {
+        width: 106%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .description {
+        width: 95%;
+        margin-right: 25px;
+    }
+
+    .button {
+        width: 95%;
+        margin-top: 30px;
+        margin-left: -34px;
+    }
+
+    
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+   
+
+    #banner {
+        background-position: 60%;
+        background-position-y: -88px;
+        
+    }
+
+    #trailer-container {
+        width: 106%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .description {
+        width: 95%;
+        margin-right: 25px;
+    }
+
+    .button {
+        width: 95%;
+        margin-top: 30px;
+        margin-left: -34px;
+    }
+
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .description {
+        margin-top: 100px;
+    }
+}

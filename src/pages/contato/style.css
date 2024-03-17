@@ -1,0 +1,147 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box ;
+   font-family:  'Kdam Thmor Pro', sans-serif;
+   color: #fff;
+}
+
+.container {
+   min-height: 100vh;
+   background: #000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url('../../assets/banner-bat.jpg');
+   background-size: cover;
+}
+
+.container form {
+   width: 640px;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   box-shadow: 20px 20px 50px rbga(0,0,0,0.5);
+   border-radius: 15px;
+   background: rbga(255,255,0.1);
+   backdrop-filter: blur(10px);
+   flex-wrap: wrap;
+}
+
+.container form h1 {
+   color: #fff;
+   font-weight: 500;
+   margin-top: 20px;
+   width: 500px;
+   text-align: center;
+}
+
+.container form input {
+   width: 290px;
+   height: 40px;
+   padding-left: 10px;
+   outline: none;
+   border: none;
+   font-size: 15px;
+   margin-bottom: 10px;
+   background: none;
+   border-bottom: 2px solid #fff;
+}
+
+.container form input::placeholder {
+   color: #ddd;
+}
+
+.container form #ultimoNome,
+.container form #telefone {
+   margin-left: 20px;
+}
+
+.container form h4 {
+   color: #fff;
+   font-weight: 300;
+   width: 600px;
+   margin-top: 20px;
+}
+
+.container form textarea {
+   background: none;
+   border: none;
+   border-bottom: 2px solid #fff;
+   color: #fff;
+   font-weight: 200;
+   padding: 10px;
+   outline: none;
+   width: 600px;
+   height: 80px;
+   
+}
+
+textarea::-webkit-scrollbar {
+   width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb {
+   background-color: rgba(194, 194, 194, 0.713);
+}
+
+.container form #button {
+   border: none;
+   background: #fff;
+   border-radius: 5px;
+   margin-top: 20px;
+   font-weight: 600;
+   font-size: 20px;
+   color: #333;
+   width: 100px;
+   padding: 0;
+   margin-right: 500px;
+   margin-bottom: 30px;
+   transition: 0.3s;
+}
+
+.container form #button:hover {
+   opacity: 0.7;
+}
+
+@media (min-width: 360px) and (max-width: 608px) {
+   form {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   h4 {
+      display: contents;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .container form textarea {
+      width: 300px;
+   }
+
+   .container form #button {
+      margin-left: -300px;
+      margin-top: 490px;
+   }
+}
+
+@media (min-width: 609px) and (max-width:687px) {
+   .container form input {
+      width: 250px;
+   }
+
+   .container form textarea {
+      width: 520px;
+   }
+
+   .container form #button {
+      margin-left: 60px;
+      
+   }
+
+   h4 {
+      margin-left: 70px;
+   }
+}
